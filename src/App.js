@@ -38,7 +38,7 @@ const App = () => {
      */
     setPosts(posts.map( p => {
         if (p.id === postId){
-          return {...p, likes: (p.likes +1)}
+          return {...p, likes: (p.likes + 1)}
         }
         return p
         // return (...p,)
